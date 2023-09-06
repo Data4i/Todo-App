@@ -1,4 +1,10 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    /* font-family: sans-serif; */
 }
+
+/* .card {
+
+} */

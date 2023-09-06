@@ -1,9 +1,48 @@
 {% extends 'base.html' %}
 
 {% block head %}
+<title>Task Master</title>
 {% endblock %}
 
 
 {% block body %}
-    <h1>Template</h1>
+<!-- <div class = 'content'> 
+    <h1>Task Master</h1>
+    <table>
+        <tr>
+            <th>Task</th>
+            <th>Added</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <a href="">Delete</a>
+                <a href="">Update</a>
+            </td>
+        </tr>
+    </table>
+</div> -->
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card shadow">
+        <div class="card-body">
+            <h5 class="card-title">Task</h5>
+            <p class="card-text">Created on :</p>
+            <a href="#" class="btn btn-primary">Update</a>
+            <a href="#" style = 'background-color: red' class="btn btn-secondary">Delete</a>
+        </div>
+    </div>
+</div>
 {% endblock %}
